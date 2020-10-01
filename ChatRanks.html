@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chat Ranks</title>
+    <link rel = "stylesheet" type = "text/css" href = "CSS/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="icon" href="Images/PokimaneLogo.png">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body, html {
+        height: 100%;
+      }
+
+      .hero-image {
+        margin: 0;
+        background-image: linear-gradient(to right, rgba(100, 0, 1.3, 0.3), rgba(67, 87, 245, 0.3)), url("Images/DiscordRanks.png");
+        height: 70%;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+
+      .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+      }
+
+      .first-container {
+        padding: 15px;
+        padding-left: 60px;
+        padding-right: 35px;
+        width: 100%;
+        color: black;
+        background-color: white;
+        line-height: 1.3;
+        text-align: center;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1 style="font-size:50px">Chat Ranks</h1>
+      </div>
+    </div>
+
+    <div class="first-container">
+      <p>Every minute that you're messaging, you randomly gain between 15 and 25 XP. To avoid spamming, earning XP is limited to once a minute per user. In the server, you type !rank to see your rank and level. </p>
+      <p>You unlock the whole server once you hit level 5 on mee6. Reaching Level 5 takes between 46 messages to 77 messages, on average 58 messages / about an hour of chatting.</p>
+      <p>Any violations of the rules with result <span style="color: red;">in a RESET of your rank</span>.</p>
+    </div>
+
+    <div class="end-container">
+      <a href="https://discord.gg/poki"><img src="Images/DiscordLogo.png"></a>
+      <a href="https://www.youtube.com/user/pokimane"><img src="Images/YouTube-Emblem.png"></a>
+      <a href="https://www.twitch.tv/pokimane"><img src="Images/TwitchLogo.png"></a>
+      <a href="https://www.instagram.com/pokimanelol/?hl=en"><img src="Images/IG-Logo.png"></a>
+      <a href="https://www.youtube.com/channel/UCDK9qD5DAQML-pzrtA7A4oA"><img src="Images/OTVLogo.png"></a>
+      <a href="https://www.facebook.com/pokimane/"><img src="Images/FBLogo.png"></a>
+      <a href="https://twitter.com/pokimanelol?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="Images/Twitter-Logo.png"></a>
+      <p>© Copyright | Pokimane </p>
+    </div>
+
+    <ul id = "navBar">
+      <li style="padding-right: 20px;"><a data-attr="img" href="https://www.youtube.com/user/pokimane"><img src="Images/PokimaneLogo.png" style="margin: auto; height: 40px; width: auto; transform: translateY(13px);"></a></li>
+      <li><a href = "index.html" id = "active">Home</a></li>
+      <div class = "dropdown">
+        <li class = "dropdownbtn">About Me</li>
+        <div class="dropdown-content">
+          <a href="WhoAmI.html" >Who Am I?</a>
+          <a href="Howtojoin.html">How Do I Join?</a>
+        </div>
+      </div>
+      <div class = "dropdown">
+        <li class = "dropdownbtn">Staying Informed</li>
+        <div class="dropdown-content">
+          <a href="Streams.html">Stream Schedule</a>
+          <a href="Uploads.html">Youtube Uploads</a>
+        </div>
+      </div>
+      <div class = "dropdown">
+        <li class = "dropdownbtn">Chatting</li>
+        <div class= "dropdown-content">
+          <a href="ChatRules.html">Rules</a>
+          <a href="ChatRanks.html">Ranks</a>
+        </div>
+      </div>
+      <li><a href = "WhatPeopleThink.html">What People Think</a></li>
+      <li><a href = "Contact.html">Contact</a></li>
+      <li style="padding-left: 20px;"><a data-attr="img" href="https://www.twitch.tv/pokimane"><img src="Images/PokimaneLogo.png" style="margin: auto; height: 40px; width: auto; transform: translateY(13px);"></a></li>
+    </ul>
+  </body>
+</html>
